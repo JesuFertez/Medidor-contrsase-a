@@ -21,9 +21,9 @@ public class ContrasenaFortalezaPresenter implements PresenterFortaleza {
 
             if (Character.isUpperCase(contrasena.charAt(i))) {
                 isUpperCase = true;
+                break;
             } else {
                 isUpperCase = false;
-                break;
             }
         }
         return isUpperCase;
